@@ -62,7 +62,7 @@ public abstract class DessertItem {
     }
 
     public int compareTo(DessertItem a) {
-        if(this.getCalories() < a.getCalories()) {
+        if (this.getCalories() < a.getCalories()) {
             return -1;
         }
         else if(this.getCalories() > a.getCalories()) {
